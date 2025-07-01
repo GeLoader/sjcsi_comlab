@@ -14,7 +14,7 @@ export default defineConfig(({ mode }) => ({
     mode === 'development' &&
     componentTagger(),
   ].filter(Boolean),
-  base: '/sjcsi_comlab/',
+  base: '/sjcsi_comlab',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
